@@ -1,25 +1,80 @@
-# 💫 About Me:
-Je travaille actuellement sur plusieurs projets qui peuvent aboutir. Et n'hésitez pas à contribuer à mes projet de logiciel.
+```aura width=800 height=200
+<div style={{
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  padding: '40px 48px',
+  background: 'linear-gradient(135deg, #0d0d0d 0%, #111111 100%)',
+  width: '100%',
+  height: '100%',
+  fontFamily: 'Inter',
+}}>
+  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+    <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff', letterSpacing: '-0.5px' }}>
+      darkiifr
+    </span>
+    <span style={{ fontSize: 15, color: '#888888', letterSpacing: '0.2px' }}>
+      indie dev · vins studio · france
+    </span>
+  </div>
+  <div style={{
+    display: 'flex',
+    gap: '8px',
+    marginTop: '24px',
+  }}>
+    {['C#', 'SvelteKit', 'Tauri', 'Rust', 'TypeScript'].map((tech) => (
+      <div key={tech} style={{
+        background: '#1a1a1a',
+        border: '1px solid #2a2a2a',
+        borderRadius: '6px',
+        padding: '4px 12px',
+        fontSize: 12,
+        color: '#aaaaaa',
+      }}>
+        {tech}
+      </div>
+    ))}
+  </div>
+</div>
+```
 
+<br/>
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/9T6BBERXTP) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@UCZBAbJDBD4rLOcGJ0QUsQDg) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:contact@vinsstudio.xyz) 
+```aura width=800 height=130
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  padding: '28px 48px',
+  background: '#0d0d0d',
+  width: '100%',
+  height: '100%',
+  fontFamily: 'Inter',
+  borderTop: '1px solid #1e1e1e',
+}}>
+  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+    <span style={{ fontSize: 11, color: '#555555', textTransform: 'uppercase', letterSpacing: '1px' }}>projects</span>
+    <span style={{ fontSize: 14, color: '#cccccc' }}>Fiip · Caltemp · DynamicWin · ITunesRPC</span>
+  </div>
+  <div style={{ display: 'flex', gap: '24px' }}>
+    {[
+      { label: 'Discord', color: '#5865F2', url: 'discord.gg/9T6BBERXTP' },
+      { label: 'YouTube', color: '#FF0000', url: 'youtube.com/@UCZBAbJDBD4rLOcGJ0QUsQDg' },
+      { label: 'Ko-fi', color: '#FF5E5B', url: 'ko-fi.com/darkiifr' },
+    ].map(({ label, color }) => (
+      <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        <div style={{ width: 6, height: 6, borderRadius: '50%', background: color }} />
+        <span style={{ fontSize: 13, color: '#777777' }}>{label}</span>
+      </div>
+    ))}
+  </div>
+</div>
+```
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Esbuild](https://img.shields.io/badge/esbuild-%23FFCF00.svg?style=for-the-badge&logo=esbuild&logoColor=black) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nuxt JS](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl) ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) ![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![SvelteKit](https://img.shields.io/badge/sveltekit-%23ff3e00.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=darkiifr&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=darkiifr&theme=shadow_blue&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=darkiifr&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=darkiifr&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=darkiifr&theme=shadow_blue&hide_border=true&show_icons=true&include_all_commits=false&count_private=false&hide=issues,contribs&rank_icon=github)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=darkiifr&icon=5&color=4)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/darkiifr) 
-
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<sub>contact@vinsstudio.xyz · built with [readme-aura](https://github.com/collectioneur/readme-aura)</sub>
