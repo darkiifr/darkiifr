@@ -6,7 +6,7 @@
 
 Logiciels de bureau, apps mobiles, web. Basé à Nice, France 🇫🇷
 
-[![Portfolio](https://img.shields.io/badge/Vins_Studio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/darkiifr)
+[![Portfolio](https://img.shields.io/badge/Vins_Studio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VinsStudio)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](#)
 
 </div>
