@@ -15,7 +15,7 @@ Logiciels de bureau, apps mobiles, web. Basé à Nice, France 🇫🇷
 
 ### 🚀 En ce moment
 
-- 🗒️ **[Fiip](https://github.com/darkiifr/Fiip)** — app de prise de notes multi-plateforme (desktop, mobile, extension navigateur)
+- 🗒️ **[Fiip](https://fiip.fr)** — app de prise de notes multi-plateforme (desktop, mobile, extension navigateur)
 - 📅 **[Caltemp](https://github.com/darkiifr/Caltemp)** — application de calendrier moderne
 
 ---
