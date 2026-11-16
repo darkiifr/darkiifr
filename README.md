@@ -2,7 +2,7 @@
 
 # Salut, moi c'est darkiifr 👋
 
-### Étudiant & développeur indépendant — Vins Studio
+### Étudiant & développeur indépendant - Vins Studio
 
 Logiciels de bureau, apps mobiles, web. Basé à Nice, France 🇫🇷
 
